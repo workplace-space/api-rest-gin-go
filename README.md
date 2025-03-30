@@ -1,6 +1,6 @@
 # API REST com Gin (Go)
 
-Projeto de uma API RESTful utilizando o framework **Gin** em **Go**, com conexão ao banco de dados **PostgreSQL**, gerenciamento via **Docker Compose** e arquitetura organizada por camadas (MVC).
+Projeto de uma API RESTful realizado no curso da ALURA, utilizando o framework **Gin** em **Go**, com conexão ao banco de dados **PostgreSQL**, gerenciamento via **Docker Compose** e arquitetura organizada por camadas (MVC).
 
 ---
 
