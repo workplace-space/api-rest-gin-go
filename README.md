@@ -1,4 +1,6 @@
-.
+## 🗂 Estrutura de Pastas
+
+```text
 ├── controllers
 │   └── controller.go
 ├── database
@@ -12,5 +14,5 @@
 ├── README.md
 └── routes
     └── routes.go
+```
 
-5 directories, 9 files
