@@ -1,21 +1,37 @@
-# Go build
-bin/
+# Binários compilados
 *.exe
-*.dll
-*.so
-*.dylib
-*.test
 *.out
+*.test
 
-# Go workspace
-pkg/
+# Diretórios de build/cache
+bin/
+build/
+dist/
 
-# Dependency directories
+# Dados do Postgres (volume persistente do Docker)
+postgres-data/
+
+# Diretórios de dependência (caso use)
 vendor/
 
-# Editor/OS files
-.DS_Store
-*.swp
-.idea/
-.vscode/
+# Arquivos temporários do sistema/editor
 *.log
+*.swp
+*.tmp
+*.bak
+*.old
+
+# Configs de editor
+.vscode/
+.idea/
+
+# Arquivos gerados pelo Go
+*.coverprofile
+*.modcache
+
+# Arquivos de sistema
+.DS_Store
+
+# Docker
+*.env
+.env.*
